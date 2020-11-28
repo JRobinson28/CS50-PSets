@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy
+{% endblock %}
+
+{% block main %}
+    <div>
+        <p1>You have no holdings!</p1>
+    </div>
+    <form method="get" action="/buy">
+        <button type="submit" class="btn btn-success">Buy shares</button>
+    </form>
+{% endblock %}

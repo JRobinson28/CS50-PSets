@@ -1,0 +1,113 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+
+        <!-- Style sheet -->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+        <title>Joseph Robinson</title>
+    </head>
+
+    <body>
+
+        <nav class="navbar fixed-top bg-dark navbar-expand-md navbar-dark" id="MainNav">
+            <a href="index.html" class="navbar-brand">
+                <!-- <i class="fas fa-plane"></i>   -->
+                Joe Robinson
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#NavLinks" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="NavLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="experience.html" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="skills.html" class="nav-link">Skills</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <!-- Projects -->
+        <section id="Projects">
+            <h1 class="text-center section-header">-Take a look at some of my projects-</h1>
+
+            <div id="Dissertation" class="container exp">
+                <div class="row col-md-10">
+                    <h5 class="project">Masters Thesis: Capturing the effects of variation on Turbine Blade performance</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Something I always wondered when looking at degraded engine components at GE Aviation was the effect that this degradation had on the performance of the engine on wing, particularly in the critical turbine section. I took the opportunity to study this for my masters thesis, which you can read <a href="https://pdfhost.io/v/n0z2~Qc2_Capturing_the_effects_of_variation_on_turbine_blade_performance.pdf">here</a>.</p>
+                        <p>I used MATLAB to devise a model that could randomly perturb a set of airfoil coordinates in a way which closely replicates the variations present in a newly manufactured or degraded set of blades. I then ran CFD simulations on these perturbed blade coordinate sets using MISES and analysed the results using MATLAB and Python.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="https://imgbb.com/"><img src="https://i.ibb.co/C7VhFsk/Mach-Contour.png" class="img-fluid"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="UAS" class="container exp">
+                <div class="row">
+                    <h5 class="project col-md-10">Unmanned Aircraft System: Design, Build, Fly</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>In my 3rd year of university, I worked as part of a team of 5 to design and construct an Unmanned Aircraft System according to stringent IMechE requirements, with the objective of providing humanitarian aid to disaster locations. I acted as chief propulsion engineer and procurement lead. This mix of roles allowed me to build my technical skills while gaining project management experience of managing budget constraints and part lead times. </p>
+                        <p>Our aircraft utilised a carbon fibre fuselage frame with 3D printed joints and a lightweight design aimed at doing multiple rapid journeys.</p>
+                        <a href="https://youtu.be/6FpLfVDss28">See it fly!</a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="https://ibb.co/LgHK9Z7"><img src="https://i.ibb.co/6tLQDWC/Plane.png" class="img-fluid"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Website" class="container exp">
+                <div class="row">
+                    <h5 class="project col-md-10">Portfolio Website</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>As part of an MOD sponsored scheme I have recently been learning HTML, CSS and JavaScript for the first time, leading me to create this website from scratch!</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="https://assets.entrepreneur.com/content/3x2/2000/20150708172005-coding-working-workspace-apple-macintosh.jpeg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>

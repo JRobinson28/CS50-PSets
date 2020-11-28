@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <td>Stock</td>
+                <td>Quantity</td>
+                <td>Value</td>
+                <td>Total</td>
+            </tr>
+        </thead>
+        <tfoot>
+            <td colspan="3"></td>
+            <td>{{ usd(total) }}</td>
+        </tfoot>
+        <tbody>
+            {% for stock in stocks %}
+                <tr>
+                    <td>{{ stock['stock'].upper() }}</td>
+                    <td>{{ stock['shares'] }}</td>
+                    <td>{{ usd(stock['price']) }}</td>
+                    <td>{{ usd(stock['stockTotal']) }}</td>
+                </tr>
+            {% endfor %}
+            <tr>
+                <td>CASH</td>
+                <td colspan="2"></td>
+                <td>{{ usd(cash) }}</td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}

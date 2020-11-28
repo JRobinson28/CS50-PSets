@@ -1,0 +1,76 @@
+body {
+	font-family: 'Montserrat';
+}
+
+
+#header {
+	color: white;
+	padding: 297px 0;
+    background: linear-gradient(-45deg, #23a6d5, #23d5ab);
+    /*background-size: 400% 400%;*/
+    animation: gradient 15s ease infinite;
+
+}
+
+
+#Experience {
+	background: white;
+    padding-top:70px;
+    margin-top: 10px;
+    margin-bottom: 120px;
+}
+
+#Projects {
+	padding-top:70px;
+    margin-top:10px;
+    padding-bottom: 70px;
+}
+
+
+#Skills {
+	background: white;
+	padding: 70px 0;
+}
+.project{
+	color: green;
+	font-weight: bold;
+}
+.exp {
+	margin: 50px auto;
+}
+
+.piccy {
+	padding: 40px 0;
+}
+
+.Company {
+	color: green;
+	font-weight: bold;
+}
+
+.Role {
+	color: blue;
+	font-weight: bold;
+}
+
+.section-header {
+	margin-bottom: 50px;
+}
+
+.skill {
+  display: inline-block;
+  border-radius: 250px;
+  box-shadow: 0px 0px 10px #888;
+  padding: 0.6em 0.6em;
+}
+
+.skillTitle {
+	padding: 30px 30px;
+}
+
+.skillDesc {
+	border-radius: 100px;
+  	border: 1px solid black;
+  	padding: 4em 4em;
+  	display: none;
+}
